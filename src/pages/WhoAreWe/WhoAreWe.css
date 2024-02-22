@@ -1,0 +1,73 @@
+.bg-imageEN {
+    background-image: url('../../Assets/images/Path 1012 (4).png');
+    background-size: contain;
+    background-position: top 80px left;  
+    background-repeat: no-repeat;
+    /* height: 300vh; */
+    /* You can adjust other background properties as needed */
+}
+.bg-imageAR {
+    background-image: url('../../Assets/images/Path 1012 (3).png');
+    background-size: contain;
+    width: 100%;
+    background-position: top 80px left;    background-repeat: no-repeat;
+   
+}
+
+
+.bg-imageEN6 {
+    background-image: url('../../Assets/images/Path 1012 (5).png');
+    background-size: cover;
+    background-position: center left;  
+    background-repeat: no-repeat;
+    z-index: 7886876876;
+    /* height: 300vh; */
+    /* You can adjust other background properties as needed */
+}
+.bg-imageAR6 {
+    background-image: url('../../Assets/images/Path 1012 (3).png');
+    background-size: cover;
+    width: 100%;
+    background-position: top 80px left;    background-repeat: no-repeat;
+   
+}
+
+/* Adjust layout for small screens */
+@media screen and (max-width: 768px) {
+    .WhoAreWe {
+      padding: 20px;
+    }
+    .WhoAreWe img {
+      width: 100%;
+    }
+    .WhoAreWe h1 {
+      font-size: 28px;
+    }
+  }
+  
+  /* Adjust layout for medium screens */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .WhoAreWe {
+      padding: 30px;
+    }
+    .WhoAreWe img {
+      width: 100%;
+    }
+    .WhoAreWe h1 {
+      font-size: 32px;
+    }
+  }
+  
+  /* Adjust layout for large screens */
+  @media screen and (min-width: 992px) {
+    .WhoAreWe {
+      padding: 40px;
+    }
+    .WhoAreWe img {
+      width: 100%;
+    }
+    .WhoAreWe h1 {
+      font-size: 36px;
+    }
+  }
+  

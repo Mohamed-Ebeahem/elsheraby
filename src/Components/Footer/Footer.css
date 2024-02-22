@@ -1,0 +1,20 @@
+
+.bg-imageE8 {
+    background-image: url('../../Assets/images/Path 1012 (7) (2).png');
+    background-size: cover;
+    background-position:  center center;
+    width: 100%;  
+    background-repeat: no-repeat;
+    /* height: 300vh; */
+    /* You can adjust other background properties as needed */
+}
+
+.bg-imageA8 {
+    background-image: url('../../Assets/images/Path 1012 (8) (2).png');
+    background-size: cover;
+    background-position:  center center;
+    width: 100%;  
+    background-repeat: no-repeat;
+    /* height: 300vh; */
+    /* You can adjust other background properties as needed */
+}

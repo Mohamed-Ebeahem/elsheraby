@@ -1,0 +1,294 @@
+.bg1 {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #5586A9;
+
+    position: relative; 
+    z-index: auto; 
+    color: white;
+}
+
+.bg1::before {
+    content: 'المدير العام';
+    background-color: #003E82;
+display: flex;
+justify-content: center;
+align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    left: 7px;
+    z-index: 0;
+    height: 100%;
+}
+.bg2 {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #003E82;
+    position: relative; 
+    z-index: auto; 
+    color: white;
+}
+
+.bg2::before {
+    content: ' إدارة التسويق وخدمة العملاء    ';
+    background-color: #5586A9;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    left: 7px;
+    z-index: 0;
+    height: 100%;
+}
+
+.bg3{
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #003E82;
+    position: relative; 
+    z-index: auto; 
+    color: white;
+}
+
+.bg3::before {
+    content: ' إدارة التسويق وخدمة العملاء    ';
+    background-color: #5586A9;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    left: 7px;
+    z-index: 0;
+    height: 100%;
+}
+
+.bg4{
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #003E82;
+    position: relative; 
+    z-index: auto; 
+    color: white;
+}
+
+.bg4::before {
+    content: ' إدارة التسويق وخدمة العملاء    ';
+    background-color: #5586A9;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    left: 7px;
+    z-index: 0;
+    height: 100%;
+}
+
+.bg5{
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #003E82;
+    position: relative; 
+    z-index: auto; 
+    color: white;
+}
+
+.bg5::before {
+    content: ' إدارة التسويق وخدمة العملاء    ';
+    background-color: #5586A9;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    left: 7px;
+    z-index: 0;
+    height: 100%;
+}
+
+.bg6{
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #003E82;
+    position: relative; 
+    z-index: auto; 
+    color: white;
+}
+
+.bg6::before {
+    content: ' إدارة التسويق وخدمة العملاء    ';
+    background-color: #5586A9;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    left: 7px;
+    z-index: 0;
+    height: 100%;
+}
+.bgs1{
+    display: inline-block;
+    padding: 15px 35px;
+    width: 100%;
+    background-color: #003E82;
+    position: relative; 
+    z-index: auto; 
+    color: white;
+}
+
+.bgE1 {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #5586A9;
+
+    position: relative; 
+    z-index: auto; 
+    color: white;
+}
+
+.bgE1::before {
+    content: 'General Manager    ';
+    background-color: #003E82;
+display: flex;
+justify-content: center;
+align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    left: 7px;
+    z-index: 0;
+    height: 100%;
+}
+.bgE2 {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #003E82;
+    position: relative; 
+    z-index: auto; 
+    color: white;
+}
+
+.bgE2::before {
+    content: 'Marketing & Customer Service Management    ';
+    background-color: #5586A9;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    left: 7px;
+    z-index: 0;
+    height: 100%;
+}
+
+.bgE3{
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #003E82;
+    position: relative; 
+    z-index: auto; 
+    color: white;
+}
+
+.bgE3::before {
+    content: 'Maintenance Management    ';
+    background-color: #5586A9;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    left: 7px;
+    z-index: 0;
+    height: 100%;
+}
+
+.bgE4{
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #003E82;
+    position: relative; 
+    z-index: auto; 
+    color: white;
+}
+
+.bgE4::before {
+    content: ' Execution & Operation Management   ';
+    background-color: #5586A9;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    left: 7px;
+    z-index: 0;
+    height: 100%;
+}
+
+.bgE5{
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #003E82;
+    position: relative; 
+    z-index: auto; 
+    color: white;
+}
+
+.bgE5::before {
+    content: 'Studies & Designs Management    ';
+    background-color: #5586A9;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    left: 7px;
+    z-index: 0;
+    height: 100%;
+}
+
+.bgE6{
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #003E82;
+    position: relative; 
+    z-index: auto; 
+    color: white;
+}
+
+.bgE6::before {
+    content: 'Studies & Designs Management    ';
+    background-color: #5586A9;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+    position: absolute;
+    width: 100%;
+    top: -5px;
+    left: 7px;
+    z-index: 0;
+    height: 100%;
+}

@@ -1,0 +1,8 @@
+.your-hoverable-div {
+    transition: transform 0.3s ease !important; /* Smooth transition for transform */
+  }
+  
+  .your-hoverable-div:hover {
+    transform: scale(0.9); /* Scale the element on hover */
+  }
+  

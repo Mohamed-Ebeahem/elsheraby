@@ -1,0 +1,99 @@
+/* Define the container element */
+.home-container {
+    margin: 0 auto; /* Center the content */
+}
+
+/* Set the background image for the entire container */
+.home-container {
+    background-image: url('../../Assets/images/Path 1012 (4).png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* Adjust the background image for smaller screens */
+@media (max-width: 768px) {
+    .home-container {
+        background-size: contain;
+    }
+}
+.ReadMore {
+    color: rgb(255, 255, 255) !important;
+    background-color: #1D479B !important;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 3px rgb(0, 5, 20);
+    
+  }
+
+  .bg-imageEN2 {
+    background-image: url('../../Assets/images/logo-line art (2).png');
+    background-size: cover;
+    background-position: top 80px left;
+    background-repeat: no-repeat;
+    /* height: 90vh; */
+    position: relative;
+    bottom: 0;
+    /* z-index: 0; */
+    /* width: 300%; */
+    transition: transform 2s linear;
+}
+.bg-imageAR2 {
+    background-image: url('../../Assets/images/logo-line art (2).png');
+    background-size: cover;
+    background-position: top 80px right;
+    background-repeat: no-repeat;
+    /* height: 90vh; */
+    /* z-index: 0; */
+    width: 400%;
+    transition: transform 2s linear;
+
+}
+.bg-imageEN2:hover , .bg-imageAR2:hover {
+    transform: rotate(359deg);
+}
+.bg-imageEN2:hover ,.bg-imageAR2:hover {
+    animation: rotateAnimation2 2s linear infinite; /* Change animation duration and timing function as needed */
+  }
+  
+  @keyframes rotateAnimation2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  }
+
+  .hoverable-div {
+    transition: transform 0.3s ease !important; /* Smooth transition for transform */
+  }
+  
+  .hoverable-div:hover {
+    transform: rotate(45deg); /* Rotate the element on hover */
+  }
+
+  .hoverable-icon:hover {
+    animation: rotateAnimation2 2s linear infinite; /* Change animation duration and timing function as needed */
+  }
+  @keyframes rotateAnimation2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.section2 {
+  background-size: cover;
+  background-position: center;
+  background-image: url('../../Assets/2.png');
+}
+
+.text-start {
+  text-align: start;
+}
+
+.text-end {
+  text-align: end;
+}

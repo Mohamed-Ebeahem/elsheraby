@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0; 
+}
+.rtl {
+  direction: rtl;
+}
+
+.ltr {
+  direction: ltr;
+}
+.bg-image {
+  background-image: url('./Assets/images/Path 1012.svg');
+  /* background-size: cover; */
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 300vh;
+  /* You can adjust other background properties as needed */
+}
